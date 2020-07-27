@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7BC05"
+    android:orientation="vertical"
+    tools:context=".AdresBilgileri">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#203040"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Adres Bilgilerini Giriniz"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#203040"
+            android:id="@+id/sehirBilgiEditText"
+            android:hint="Şehir Bilgisini Giriniz"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#203040"
+            android:id="@+id/ilceBilgiEditText"
+            android:hint="ilçe Bilgisini Giriniz"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#203040"
+            android:id="@+id/mahalleBilgiEditText"
+            android:hint="mahalle Bilgisini Giriniz"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="İleri"
+            android:id="@+id/adresBilgisiButon"
+            android:background="@drawable/menu_buton_back"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Geri"
+            android:id="@+id/adresBilgisiButonGeri"
+            android:background="@drawable/menu_buton_back"/>
+</LinearLayout>

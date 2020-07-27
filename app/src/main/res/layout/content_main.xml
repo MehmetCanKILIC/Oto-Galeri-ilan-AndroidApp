@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3897D9"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:id="@+id/mainActivitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mainActivitySliderFavori"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"></android.support.v4.view.ViewPager>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/mainActivitysliderCircle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            app:ci_drawable="@color/coloryellow"
+            app:ci_drawable_unselected="@color/colorPrimaryDark"></me.relex.circleindicator.CircleIndicator>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainActivitySlider"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ilanlarButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/ilanlist"
+                android:padding="8dp"
+                android:paddingBottom="10dp"
+                android:text="ilanlar"
+                android:textColor="#0F3057"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ilanVerButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/ilanver"
+                android:padding="8dp"
+                android:paddingBottom="10dp"
+                android:text="İlan Ver"
+                android:textColor="#0F3057"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/favori"
+                android:padding="8dp"
+                android:paddingBottom="10dp"
+                android:text="favori ilanlar"
+                android:textColor="#0F3057"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/iletisim"
+                android:padding="8dp"
+                android:paddingBottom="10dp"
+                android:text="iletisim bilgileri"
+                android:id="@+id/iletisimBilgileriButton"
+                android:textColor="#0F3057"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/mesaj"
+                android:padding="8dp"
+                android:id="@+id/kisiMesajlari"
+                android:paddingBottom="10dp"
+                android:text="Mesajlarım"
+                android:textColor="#0F3057"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ilanlarimMenuButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/ilanlarim"
+                android:padding="8dp"
+                android:paddingBottom="10dp"
+                android:text="ilanlarım"
+                android:textColor="#0F3057"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

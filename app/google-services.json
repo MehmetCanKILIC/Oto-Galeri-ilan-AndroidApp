@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "557303952579",
+    "firebase_url": "https://otogaleriuygulamasi-986ee.firebaseio.com",
+    "project_id": "otogaleriuygulamasi-986ee",
+    "storage_bucket": "otogaleriuygulamasi-986ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557303952579:android:43cd86984652b144",
+        "android_client_info": {
+          "package_name": "com.example.mck.otogalerici"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557303952579-dgl2145t0760hr16t3h8i70s4k44b45e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mck.otogalerici",
+            "certificate_hash": "aed0e56500db243be1cdb2d73e1c0750213b7f19"
+          }
+        },
+        {
+          "client_id": "557303952579-p52q13v4qi7bep0pibkndju5nev4cqk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsca6SB-RShj7vyZWCBTT3j7agy2AjAEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557303952579-p52q13v4qi7bep0pibkndju5nev4cqk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

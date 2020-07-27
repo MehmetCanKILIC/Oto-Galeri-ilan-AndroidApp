@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ilanlar"
+            android:title="İlanlar" />
+        <item
+            android:id="@+id/mesajlar"
+            android:title="Mesajlar" />
+        <item
+            android:id="@+id/ilanlarim"
+            android:title="İlanlarım" />
+        <item
+            android:id="@+id/ilanver"
+            android:title="İlan Ver" />
+    </group>
+
+    <item android:title="Hesap">
+        <menu>
+            <item
+                android:id="@+id/bilgi"
+                android:title="Kişisel Bilgiler" />
+            <item
+                android:id="@+id/cikisYap"
+                android:title="Çıkış Yap" />
+        </menu>
+    </item>
+
+</menu>

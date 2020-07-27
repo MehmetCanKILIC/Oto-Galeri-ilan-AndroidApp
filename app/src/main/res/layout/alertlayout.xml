@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FF520F"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ne Yapmak İstiyorsunuz ? "
+      android:layout_gravity="center"
+      android:textColor="#0F3057"
+      android:gravity="center"
+      android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_buton_back"
+            android:layout_height="wrap_content"
+            android:text="Sil"
+            android:layout_margin="5dp"
+            android:id="@+id/buton"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_buton_back"
+            android:layout_height="wrap_content"
+            android:text="İptal Et"
+            android:layout_margin="5dp"
+            android:id="@+id/buton2"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

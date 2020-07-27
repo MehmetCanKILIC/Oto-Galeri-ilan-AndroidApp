@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7BC05"
+    android:orientation="vertical"
+    tools:context=".IlanResimler">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#203040"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="İlan Resimlerini Seçiniz"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Resim Seç"
+        android:id="@+id/resimSecButton"
+        android:background="@drawable/menu_buton_back"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/secilenIlanResmiImageView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Resim Ekle"
+        android:id="@+id/resimEkleButton"
+        android:background="@drawable/menu_buton_back"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:text="geri"
+        android:id="@+id/ilanYayinlaButton"
+        android:background="@drawable/menu_buton_back"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:text="çık"
+        android:id="@+id/ilanYayinlaButtonGeri"
+        android:background="@drawable/menu_buton_back"/>
+</LinearLayout>
